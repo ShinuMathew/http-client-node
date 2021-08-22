@@ -1,3 +1,12 @@
 const rp = require('request-promise-native');
 
-rp.get("https://www.google.com", )
+class RequestBuilder {
+    
+    constructor() {
+
+    }
+
+    sendGetRequest(requestOptions) {
+        rp(requestOptions).then()
+    }
+}
